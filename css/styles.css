@@ -13,6 +13,7 @@ header.main-header {
   width: 100%;
   height: 80px;
   background: #000;
+  position: fixed;
 }
 header.main-header .center {
   height: 100%;
@@ -75,6 +76,7 @@ h1 {
 .premiumPlan {
   background: #9bf0e1;
   padding: 30px 0;
+  height: 700px;
 }
 
 .premiumPlan .center {
@@ -103,4 +105,91 @@ h1 {
 
 .premiumPlan .btn {
   background: #2d46b9;
+}
+
+/*Começo do Free Plan*/
+
+.freeplan {
+  background-color: #b88a0c;
+  padding: 30px 0;
+  height: 700px;
+}
+
+.middescription {
+  color: white;
+  font-size: 19px;
+}
+
+.freeplan .center {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  color: #13288f;
+}
+
+.btn {
+  background-color: #e40f9d;
+}
+
+/*Começo do Footer*/
+
+.footer {
+  background: #141414;
+  padding: 70px 0;
+}
+.footer img {
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 0 85px;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+  background-color: #060607;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer {
+  background-color: #050505;
+  padding: 70px 0;
+  height: 300px;
+}
+
+.footer-col {
+  width: 20%;
+  padding: 20px;
+}
+
+.footer-col li {
+  padding: 5px;
+}
+.footer-col a {
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+}
+
+.footer-col a:hover {
+  color: #1a8d1a;
+}
+
+.footer-col h4 {
+  color: #7e7878;
+  font-size: 18px;
+  text-transform: capitalize;
+  margin-bottom: 30px;
 }
