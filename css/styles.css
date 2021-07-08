@@ -69,6 +69,7 @@ h1 {
   text-transform: uppercase;
   font-weight: bold;
   border-radius: 40px;
+  cursor: pointer;
 }
 
 /* Começo do premimPlan */
@@ -97,7 +98,7 @@ h1 {
 }
 
 .premiumPlan p {
-  color: #2d46b9;
+  color: #2d5eb9;
 }
 .premiumPlan h1 {
   color: #2d46b9;
@@ -110,7 +111,7 @@ h1 {
 /*Começo do Free Plan*/
 
 .freeplan {
-  background-color: #b88a0c;
+  background-color: #323636;
   padding: 30px 0;
   height: 700px;
 }
@@ -118,6 +119,12 @@ h1 {
 .middescription {
   color: white;
   font-size: 19px;
+  margin-top: 80px;
+}
+
+.freeplan p {
+  color: white;
+  margin-bottom: 10px;
 }
 
 .freeplan .center {
@@ -128,19 +135,23 @@ h1 {
 }
 
 h1 {
-  color: #13288f;
+  color: #138f24;
 }
 
-.btn {
-  background-color: #e40f9d;
+.btn-blue {
+  background-color: #be0ab5;
+  color: white;
+  padding: 16px 24px;
+  margin-top: 30px;
+  border: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 40px;
+  cursor: pointer;
 }
 
 /*Começo do Footer*/
 
-.footer {
-  background: #141414;
-  padding: 70px 0;
-}
 .footer img {
   height: 40px;
   margin-bottom: 20px;
@@ -153,8 +164,9 @@ ul {
 
 .container {
   max-width: 1170px;
+  height: 400px;
   margin: auto;
-  background-color: #060607;
+  background-color: #020202;
 }
 .row {
   display: flex;
@@ -162,23 +174,42 @@ ul {
 }
 
 .footer {
-  background-color: #050505;
+  background-color: #030101;
   padding: 70px 0;
-  height: 300px;
+  height: 500px;
+}
+.footer li {
+  text-decoration: none;
+  margin-left: 60px;
+  display: inline;
+  padding-right: 0px;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+.footer a:hover {
+  color: #1a8d1a;
 }
 
+.footer ul {
+  text-decoration: none;
+  list-style: none;
+}
 .footer-col {
-  width: 20%;
-  padding: 20px;
+  width: 22%;
+  padding: 10px;
 }
 
 .footer-col li {
   padding: 5px;
+  margin-left: 70px;
 }
+
 .footer-col a {
   color: white;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
   padding: 5px;
 }
@@ -188,8 +219,23 @@ ul {
 }
 
 .footer-col h4 {
-  color: #7e7878;
+  color: #a19c9c;
   font-size: 18px;
   text-transform: capitalize;
   margin-bottom: 30px;
+  margin-left: 80px;
+}
+.social a {
+  color: #7f8585;
+  font-size: 64px;
+}
+.country {
+  float: inline-end;
+  margin-right: 50px;
+}
+.country p {
+  color: #7a7e7e;
+}
+.country a {
+  margin-left: 80px;
 }
