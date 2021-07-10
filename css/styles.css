@@ -181,8 +181,7 @@ ul {
 .footer li {
   text-decoration: none;
   margin-left: 60px;
-  display: inline;
-  padding-right: 0px;
+  display: inline-block;
 }
 .footer a {
   color: white;
@@ -204,6 +203,7 @@ ul {
 .footer-col li {
   padding: 5px;
   margin-left: 70px;
+  margin-top: 20px;
 }
 
 .footer-col a {
