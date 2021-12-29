@@ -153,9 +153,9 @@ h1 {
 /*Começo do Footer*/
 
 .footer img {
-  height: 40px;
+  height: 2.5rem;
   margin-bottom: 20px;
-  padding: 0 85px;
+  padding: 0 3.7rem;
 }
 
 ul {
@@ -231,11 +231,12 @@ ul {
 }
 .country {
   float: inline-end;
-  margin-right: 50px;
+  margin-right: 1rem;
 }
 .country p {
   color: #7a7e7e;
+  margin-left: 69rem;
 }
 .country a {
-  margin-left: 80px;
+  margin-left: 74rem;
 }
