@@ -1,6 +1,6 @@
 
 # spotify
-Spotify Clone - We have cloned the Spotfy Web Page using HTML and CSS in this particular project.
+Spotify Clone - We have cloned the Spotfy Web Page using HTML and CSS in this particular project, no javascript. I have a contribution of my cousin who coded the first section and then i finished coding the second section.
 
 
 ![Spotfy_02](https://user-images.githubusercontent.com/85713266/176512761-0e09b5b7-098f-4a90-8098-b727f91db657.png)
